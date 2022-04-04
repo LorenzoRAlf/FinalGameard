@@ -4,8 +4,8 @@
 	<inherits name='com.badlogic.gdx.backends.gdx_backends_gwt' />
 	<inherits name='com.badlogic.gdx.physics.box2d.box2d-gwt' />
 
-	<inherits name='JuegardoFinal' />
-	<entry-point class='com.mygdx.juegardofinal.client.HtmlLauncher' />
+	<inherits name='MyGdxGame' />
+	<entry-point class='com.mygdx.game.client.HtmlLauncher' />
 	<set-configuration-property name='xsiframe.failIfScriptTag' value='FALSE'/>
 	<set-configuration-property name="gdx.assetpath" value="../android/assets" />
 	<set-property name="user.agent" value="gecko1_8, safari"/>
